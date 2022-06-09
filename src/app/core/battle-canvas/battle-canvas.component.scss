@@ -1,0 +1,25 @@
+.canvasContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pokemonCanvas {
+  border: 1px black solid;
+  height: 100vh;
+  width: auto;
+}
+
+@media (orientation: portrait) {
+  #pokemonCanvas {
+    height: auto;
+    width: 100vw;
+  }
+}
+
+@media (orientation: landscape) {
+  #pokemonCanvas {
+    height: 100vh;
+    width: auto;
+  }
+}

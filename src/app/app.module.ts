@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BattleCanvasComponent } from './core/battle-canvas/battle-canvas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BattleCanvasComponent
   ],
   imports: [
     BrowserModule,
